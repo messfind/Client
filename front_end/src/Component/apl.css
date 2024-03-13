@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* padding-top: 4px; */
+   
+}
+body {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*header style*/
+.logo img {
+    width: 18px;
+    height: 18px;
+}
+.search img {
+    width: 18px;
+    height: 18px;
+}
+.cart img {
+  width: 18px;
+  height: 18px;   
+}
+.header-wrapper {
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    position:fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.header-wrapper ul {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.internal-wrapper {
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header-wrapper .header-links-wrapper ul li a {
+text-decoration: none;
+color: white;
+}
+.header-wrapper ul {
+    list-style: none;
+}
+.header-wrapper .header-links-wrapper ul li {
+   display: inline-block;
+   padding: 14px 0 8px;
+   height: 25px;
+    opacity: 0.8;
+}
+.header-wrapper .header-links-wrapper ul li:hover {
+    opacity: 1;
+}
+.home img {
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+}
+/*footer styl*/
+.footer-wrapper {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: .65em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.uper-text {
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+.uper-text a {
+text-decoration: none;
+color: #525254;
+}
+.uper-text a:hover {
+    text-decoration: underline;
+}
+.footer-link-wrapper {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer-wrapper ul {
+list-style: none;
+padding-bottom: 20px;
+}
+.footer-wrapper ul li {
+    padding: 5px 0;
+    font-size: 0.9em;
+}
+.footer-link-wrapper a {
+    color: #515154;
+    text-decoration: none;
+}
+.footer-link-wrapper a:hover {
+    text-decoration: underline;
+}
+.foot {
+    font-size: 0.7em;
+}
+.last {
+    font-size: 0.7em;
+    margin-bottom: 50px;
+}
+.last a {
+    text-decoration: none;
+    color: #1d1d1f;
+}
+.last a:hover {
+    text-decoration: underline;
+}
+.last ul {
+    display: flex;
+  list-style: none;
+}
+.one {
+    padding-right: 2px;
+}
+.two {
+    padding-right: 2px;
+}
+.three {
+    padding-right: 2px;
+}
+.four {
+    padding-right: 2px;
+}
+.five {
+    padding-right: 2px;
+}
+.six {
+padding-right: 2px;
+}
+.seven {
+    padding-left: 275px;
+}
+.end {
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* 1st section style */
+.main-highlyte-wrapper {
+    background-color: #fafafa;
+text-align: center;
+padding: 25px 0;
+}
+.links ul {
+    list-style: none;
+}
+.second img  {
+max-width: 100%;
+}
+.links ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+.product-title {
+    font-size: 30px;
+}
+.links ul li a {
+   text-decoration: none;
+   color: #06c;
+}
+.links ul li a:after {
+    font-family: "FontAwesome";
+    content: "\f105";
+}
+.links a:hover {
+    text-decoration: underline;
+}
+/* second section style */
+.main-highlyte-2 {
+    background-image: url("images/home/iphone11-pro-bg.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 20px;
+    color: #fff;
+    text-align: center;
+}
+ .main-highlyte-3 {
+    background-image: url("images/home/iphone11-bg.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 20px;
+    text-align: center;
+ }
+ .product-title3 {
+    font-size: 20px;
+ }
+ .model3 {
+    font-size: 40px;
+    font-weight: bold;
+ }
+ /* watch style*/
+ .main {
+    display: flex;
+ }
+ .watch {
+    background-image: url("images/home/watch-series-5.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 20px auto;
+    text-align: center;
+ }
+ .phone {
+    background-image: url("images/home/apple-card.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ margin: 20px auto;
+    text-align: center;
+ }
+ .model4 a:after {
+font-family: "FontAwesome";
+content: "\f144";
+ }
+ .brief-discriptio {
+    font-size: 15px;
+    opacity: 0.8;
+ }
+ 
