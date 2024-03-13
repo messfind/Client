@@ -20,7 +20,6 @@ import Suport from "./Component/Suport";
 import Vision from "./Component/vision";
 import Four404 from "./Component/Four404";
 import Share from "./Component/Share";
-import Home from "./pages2/Home"
 
 
 
@@ -55,11 +54,9 @@ function App() {
   return (
     <AppStat.Provider value={{ user, setuser }}>
 
-      {/* <Header/> */}
       <Routes>
         <Route path="/" element={<Share />}>
           <Route path="/" element={<Section />} />
-          <Route path="/Home" element={<Home />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="mac" element={<Mac />} />
