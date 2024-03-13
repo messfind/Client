@@ -22,7 +22,12 @@ function Register() {
         const emailValue = emailDom.current.value;
         const passwordValue = passwordDom.current.value
         if (
-            !useridValue || !usernameValue || !firstNameValue || !lastNameValue || !emailValue || !passwordValue
+            !useridValue ||
+            !usernameValue ||
+            !firstNameValue ||
+            !lastNameValue ||
+            !emailValue ||
+            !passwordValue
         ) {
             alert("please provide all")
             return;
